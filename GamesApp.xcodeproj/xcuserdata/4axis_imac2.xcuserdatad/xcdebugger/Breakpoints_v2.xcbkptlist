@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "20DBE36F-4B26-4184-8D4E-29B94E3F3887"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6FE8EF71-4849-49D8-B72C-FB492D292082"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GamesApp/ViewControllers/GamePlayersViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "104"
+            endingLineNumber = "104"
+            landmarkName = "getGamePlayers(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9100B1AF-C87E-462E-9D7D-629A7B78A543"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GamesApp/ViewControllers/GamePlayersViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
+            landmarkName = "getGamePlayers(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9100B1AF-C87E-462E-9D7D-629A7B78A543 - 7f7da2c954046ea7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.FIRDataSnapshot) -&gt; () in GamesApp.GamePlayersViewController.getGamePlayers(completion: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "GamesApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/4axis_imac2/GamesApp/GamesApp/ViewControllers/GamePlayersViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "104"
+                  endingLineNumber = "104"
+                  offsetFromSymbolStart = "926">
+               </Location>
+               <Location
+                  uuid = "9100B1AF-C87E-462E-9D7D-629A7B78A543 - 7f7da2c954046ea7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.FIRDataSnapshot) -&gt; () in GamesApp.GamePlayersViewController.getGamePlayers(completion: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "GamesApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/4axis_imac2/GamesApp/GamesApp/ViewControllers/GamePlayersViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "104"
+                  endingLineNumber = "104"
+                  offsetFromSymbolStart = "1134">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0B00DE7F-A0B0-4C12-866E-F2999D429C18"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GamesApp/ViewControllers/GamePlayersViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
+            landmarkName = "getGamePlayers(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0B00DE7F-A0B0-4C12-866E-F2999D429C18 - 7f7da2c954046ec4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.FIRDataSnapshot) -&gt; () in GamesApp.GamePlayersViewController.getGamePlayers(completion: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "GamesApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/4axis_imac2/GamesApp/GamesApp/ViewControllers/GamePlayersViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "105"
+                  endingLineNumber = "105"
+                  offsetFromSymbolStart = "1205">
+               </Location>
+               <Location
+                  uuid = "0B00DE7F-A0B0-4C12-866E-F2999D429C18 - faa3dc12ce254b9e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.String, Any) -&gt; Swift.Bool in closure #1 (__C.FIRDataSnapshot) -&gt; () in GamesApp.GamePlayersViewController.getGamePlayers(completion: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "GamesApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/4axis_imac2/GamesApp/GamesApp/ViewControllers/GamePlayersViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "106"
+                  endingLineNumber = "106"
+                  offsetFromSymbolStart = "43">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EC2FCC89-6DBB-4B50-955D-48F9E38A56A5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GamesApp/ViewControllers/GamePlayersViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "116"
+            endingLineNumber = "116"
+            landmarkName = "getGamePlayers(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CF6626F2-4E35-47AA-A61A-3D7B9B17AFFF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GamesApp/ViewControllers/GamePlayersViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "loadView()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D603BC86-04C6-405A-AD75-62836816C5B6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GamesApp/ViewControllers/GamePlayersViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "loadView()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D603BC86-04C6-405A-AD75-62836816C5B6 - 2717f656742393"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GamesApp.GamePlayersViewController.loadView() -&gt; ()"
+                  moduleName = "GamesApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/4axis_imac2/GamesApp/GamesApp/ViewControllers/GamePlayersViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "167">
+               </Location>
+               <Location
+                  uuid = "D603BC86-04C6-405A-AD75-62836816C5B6 - 1e493729376db2d1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool) -&gt; () in GamesApp.GamePlayersViewController.loadView() -&gt; ()"
+                  moduleName = "GamesApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/4axis_imac2/GamesApp/GamesApp/ViewControllers/GamePlayersViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "90">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2CE6D7A1-ED2F-451B-B914-30D22BD32829"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GamesApp/ViewModel/PlayersViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "getAllData(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

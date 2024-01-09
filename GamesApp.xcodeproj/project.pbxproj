@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B24C5D429C072BB00A88B1F /* PlayersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B24C5D329C072BB00A88B1F /* PlayersViewModel.swift */; };
+		0B24C5D629C076A700A88B1F /* PlayerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B24C5D529C076A700A88B1F /* PlayerTableViewCell.swift */; };
+		0B8205DE29AE1004009905FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8205DD29AE1004009905FB /* AppDelegate.swift */; };
+		0B8205E029AE1004009905FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8205DF29AE1004009905FB /* SceneDelegate.swift */; };
+		0B8205E229AE1004009905FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8205E129AE1004009905FB /* ViewController.swift */; };
+		0B8205E529AE1004009905FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B8205E329AE1004009905FB /* Main.storyboard */; };
+		0B8205E729AE1006009905FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B8205E629AE1006009905FB /* Assets.xcassets */; };
+		0B8205EA29AE1006009905FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B8205E829AE1006009905FB /* LaunchScreen.storyboard */; };
+		0B82061029AE138C009905FB /* FullGamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B82060F29AE138C009905FB /* FullGamesViewController.swift */; };
+		0B97B21F29DAC3DF001154DE /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B91C4CF29D6DA230020C066 /* AuthenticationViewController.swift */; };
+		0B9C89FD29BF26460019325D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0B9C89FC29BF26460019325D /* GoogleService-Info.plist */; };
+		0BA06F2C29B09FAB00B9E731 /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA06F2B29B09FAB00B9E731 /* LandingViewController.swift */; };
+		0BA69F1829B99E1400DE8FC3 /* PlayersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA69F1729B99E1400DE8FC3 /* PlayersViewController.swift */; };
+		0BA83A0229D569E700D4CA88 /* GamePlayersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA83A0129D569E700D4CA88 /* GamePlayersViewController.swift */; };
+		0BAC13CF29C3054A0080DCC6 /* EnrollAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BAC13CE29C3054A0080DCC6 /* EnrollAlertViewController.swift */; };
+		0BAC13D129C323EE0080DCC6 /* AddPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BAC13D029C323EE0080DCC6 /* AddPlayerViewController.swift */; };
+		0BAD5F0329DBF5FA00AC60DD /* PasswordResetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BAD5F0229DBF5FA00AC60DD /* PasswordResetViewController.swift */; };
+		0BAD5F0529DC142F00AC60DD /* ResetStateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BAD5F0429DC142F00AC60DD /* ResetStateViewController.swift */; };
+		0BAD5F0729DC240900AC60DD /* LoginStateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BAD5F0629DC240900AC60DD /* LoginStateViewController.swift */; };
+		0BB0A3FB29C836BA006C8894 /* SubmitAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB0A3FA29C836BA006C8894 /* SubmitAlertViewController.swift */; };
+		0BBA424B29AF01BD008D28EE /* GameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBA424A29AF01BD008D28EE /* GameTableViewCell.swift */; };
+		0BBA425029AF0317008D28EE /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBA424F29AF0317008D28EE /* Game.swift */; };
+		0BBA425229AF03EE008D28EE /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBA425129AF03EE008D28EE /* Player.swift */; };
+		0BBA425529AF0D6B008D28EE /* GamesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBA425429AF0D6B008D28EE /* GamesViewModel.swift */; };
+		0BE6FF1229DAED8400561270 /* CreateUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE6FF1129DAED8400561270 /* CreateUserViewController.swift */; };
+		F27113B36F6490F627E02E62 /* Pods_GamesApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 431D10B8E3D1A8AF14C4CBAA /* Pods_GamesApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B24C5D329C072BB00A88B1F /* PlayersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersViewModel.swift; sourceTree = "<group>"; };
+		0B24C5D529C076A700A88B1F /* PlayerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTableViewCell.swift; sourceTree = "<group>"; };
+		0B8205DA29AE1004009905FB /* GamesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GamesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B8205DD29AE1004009905FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0B8205DF29AE1004009905FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0B8205E129AE1004009905FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0B8205E429AE1004009905FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0B8205E629AE1006009905FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0B8205E929AE1006009905FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0B8205EB29AE1006009905FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B8205F429AE1007009905FB /* GamesAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesAppTests.swift; sourceTree = "<group>"; };
+		0B8205FE29AE1007009905FB /* GamesAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesAppUITests.swift; sourceTree = "<group>"; };
+		0B82060029AE1007009905FB /* GamesAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0B82060F29AE138C009905FB /* FullGamesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullGamesViewController.swift; sourceTree = "<group>"; };
+		0B91C4CF29D6DA230020C066 /* AuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
+		0B9C89FC29BF26460019325D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0BA06F2B29B09FAB00B9E731 /* LandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
+		0BA69F1729B99E1400DE8FC3 /* PlayersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersViewController.swift; sourceTree = "<group>"; };
+		0BA83A0129D569E700D4CA88 /* GamePlayersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePlayersViewController.swift; sourceTree = "<group>"; };
+		0BAC13CE29C3054A0080DCC6 /* EnrollAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnrollAlertViewController.swift; sourceTree = "<group>"; };
+		0BAC13D029C323EE0080DCC6 /* AddPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlayerViewController.swift; sourceTree = "<group>"; };
+		0BAD5F0229DBF5FA00AC60DD /* PasswordResetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordResetViewController.swift; sourceTree = "<group>"; };
+		0BAD5F0429DC142F00AC60DD /* ResetStateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetStateViewController.swift; sourceTree = "<group>"; };
+		0BAD5F0629DC240900AC60DD /* LoginStateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginStateViewController.swift; sourceTree = "<group>"; };
+		0BB0A3FA29C836BA006C8894 /* SubmitAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitAlertViewController.swift; sourceTree = "<group>"; };
+		0BBA424A29AF01BD008D28EE /* GameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTableViewCell.swift; sourceTree = "<group>"; };
+		0BBA424F29AF0317008D28EE /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		0BBA425129AF03EE008D28EE /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		0BBA425429AF0D6B008D28EE /* GamesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesViewModel.swift; sourceTree = "<group>"; };
+		0BE6FF1129DAED8400561270 /* CreateUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUserViewController.swift; sourceTree = "<group>"; };
+		2F7B01C9383EB43867097480 /* Pods-GamesApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GamesApp.debug.xcconfig"; path = "Target Support Files/Pods-GamesApp/Pods-GamesApp.debug.xcconfig"; sourceTree = "<group>"; };
+		431D10B8E3D1A8AF14C4CBAA /* Pods_GamesApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GamesApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7F7A0E3B23F81E22EF5F0DB /* Pods-GamesApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GamesApp.release.xcconfig"; path = "Target Support Files/Pods-GamesApp/Pods-GamesApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B8205D729AE1004009905FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F27113B36F6490F627E02E62 /* Pods_GamesApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B8205D129AE1004009905FB = {
+			isa = PBXGroup;
+			children = (
+				0B8205DC29AE1004009905FB /* GamesApp */,
+				0B8205F329AE1007009905FB /* GamesAppTests */,
+				0B8205FD29AE1007009905FB /* GamesAppUITests */,
+				0B8205DB29AE1004009905FB /* Products */,
+				E62BC7B66025D260A58C02C3 /* Pods */,
+				5F39C3515352960DA84CB3AD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0B8205DB29AE1004009905FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B8205DA29AE1004009905FB /* GamesApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B8205DC29AE1004009905FB /* GamesApp */ = {
+			isa = PBXGroup;
+			children = (
+				0BAD5F0129DBEC0E00AC60DD /* Authentication */,
+				0B9C89FC29BF26460019325D /* GoogleService-Info.plist */,
+				0BBA425329AF0D43008D28EE /* ViewModel */,
+				0BBA424C29AF02C4008D28EE /* Model */,
+				0BBA424929AF0188008D28EE /* Views */,
+				0B82060E29AE12D9009905FB /* ViewControllers */,
+				0B8205DD29AE1004009905FB /* AppDelegate.swift */,
+				0B8205DF29AE1004009905FB /* SceneDelegate.swift */,
+				0B8205E129AE1004009905FB /* ViewController.swift */,
+				0B8205E329AE1004009905FB /* Main.storyboard */,
+				0B8205E629AE1006009905FB /* Assets.xcassets */,
+				0B8205E829AE1006009905FB /* LaunchScreen.storyboard */,
+				0B8205EB29AE1006009905FB /* Info.plist */,
+			);
+			path = GamesApp;
+			sourceTree = "<group>";
+		};
+		0B8205F329AE1007009905FB /* GamesAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				0B8205F429AE1007009905FB /* GamesAppTests.swift */,
+			);
+			path = GamesAppTests;
+			sourceTree = "<group>";
+		};
+		0B8205FD29AE1007009905FB /* GamesAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0B8205FE29AE1007009905FB /* GamesAppUITests.swift */,
+				0B82060029AE1007009905FB /* GamesAppUITestsLaunchTests.swift */,
+			);
+			path = GamesAppUITests;
+			sourceTree = "<group>";
+		};
+		0B82060E29AE12D9009905FB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0B82060F29AE138C009905FB /* FullGamesViewController.swift */,
+				0BA06F2B29B09FAB00B9E731 /* LandingViewController.swift */,
+				0BA69F1729B99E1400DE8FC3 /* PlayersViewController.swift */,
+				0BAC13CE29C3054A0080DCC6 /* EnrollAlertViewController.swift */,
+				0BAC13D029C323EE0080DCC6 /* AddPlayerViewController.swift */,
+				0BB0A3FA29C836BA006C8894 /* SubmitAlertViewController.swift */,
+				0BA83A0129D569E700D4CA88 /* GamePlayersViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0BAD5F0129DBEC0E00AC60DD /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				0BE6FF1129DAED8400561270 /* CreateUserViewController.swift */,
+				0B91C4CF29D6DA230020C066 /* AuthenticationViewController.swift */,
+				0BAD5F0229DBF5FA00AC60DD /* PasswordResetViewController.swift */,
+				0BAD5F0429DC142F00AC60DD /* ResetStateViewController.swift */,
+				0BAD5F0629DC240900AC60DD /* LoginStateViewController.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		0BBA424929AF0188008D28EE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0BBA424A29AF01BD008D28EE /* GameTableViewCell.swift */,
+				0B24C5D529C076A700A88B1F /* PlayerTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0BBA424C29AF02C4008D28EE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0BBA424F29AF0317008D28EE /* Game.swift */,
+				0BBA425129AF03EE008D28EE /* Player.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0BBA425329AF0D43008D28EE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0BBA425429AF0D6B008D28EE /* GamesViewModel.swift */,
+				0B24C5D329C072BB00A88B1F /* PlayersViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5F39C3515352960DA84CB3AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				431D10B8E3D1A8AF14C4CBAA /* Pods_GamesApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E62BC7B66025D260A58C02C3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F7B01C9383EB43867097480 /* Pods-GamesApp.debug.xcconfig */,
+				A7F7A0E3B23F81E22EF5F0DB /* Pods-GamesApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B8205D929AE1004009905FB /* GamesApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B82060429AE1007009905FB /* Build configuration list for PBXNativeTarget "GamesApp" */;
+			buildPhases = (
+				5E7DC4BD1082DA33010BC1E1 /* [CP] Check Pods Manifest.lock */,
+				0B8205D629AE1004009905FB /* Sources */,
+				0B8205D729AE1004009905FB /* Frameworks */,
+				0B8205D829AE1004009905FB /* Resources */,
+				D0C2781F469950DA9C8CE8AE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GamesApp;
+			packageProductDependencies = (
+			);
+			productName = GamesApp;
+			productReference = 0B8205DA29AE1004009905FB /* GamesApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B8205D229AE1004009905FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					0B8205D929AE1004009905FB = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 0B8205D529AE1004009905FB /* Build configuration list for PBXProject "GamesApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0B8205D129AE1004009905FB;
+			packageReferences = (
+			);
+			productRefGroup = 0B8205DB29AE1004009905FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B8205D929AE1004009905FB /* GamesApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B8205D829AE1004009905FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B9C89FD29BF26460019325D /* GoogleService-Info.plist in Resources */,
+				0B8205EA29AE1006009905FB /* LaunchScreen.storyboard in Resources */,
+				0B8205E729AE1006009905FB /* Assets.xcassets in Resources */,
+				0B8205E529AE1004009905FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5E7DC4BD1082DA33010BC1E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GamesApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0C2781F469950DA9C8CE8AE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GamesApp/Pods-GamesApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GamesApp/Pods-GamesApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GamesApp/Pods-GamesApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B8205D629AE1004009905FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B24C5D629C076A700A88B1F /* PlayerTableViewCell.swift in Sources */,
+				0BB0A3FB29C836BA006C8894 /* SubmitAlertViewController.swift in Sources */,
+				0BBA425529AF0D6B008D28EE /* GamesViewModel.swift in Sources */,
+				0BA83A0229D569E700D4CA88 /* GamePlayersViewController.swift in Sources */,
+				0BAD5F0529DC142F00AC60DD /* ResetStateViewController.swift in Sources */,
+				0BBA424B29AF01BD008D28EE /* GameTableViewCell.swift in Sources */,
+				0BE6FF1229DAED8400561270 /* CreateUserViewController.swift in Sources */,
+				0BAC13CF29C3054A0080DCC6 /* EnrollAlertViewController.swift in Sources */,
+				0BBA425029AF0317008D28EE /* Game.swift in Sources */,
+				0B24C5D429C072BB00A88B1F /* PlayersViewModel.swift in Sources */,
+				0BAD5F0729DC240900AC60DD /* LoginStateViewController.swift in Sources */,
+				0BA69F1829B99E1400DE8FC3 /* PlayersViewController.swift in Sources */,
+				0BAC13D129C323EE0080DCC6 /* AddPlayerViewController.swift in Sources */,
+				0B8205E229AE1004009905FB /* ViewController.swift in Sources */,
+				0B8205DE29AE1004009905FB /* AppDelegate.swift in Sources */,
+				0BBA425229AF03EE008D28EE /* Player.swift in Sources */,
+				0BAD5F0329DBF5FA00AC60DD /* PasswordResetViewController.swift in Sources */,
+				0B8205E029AE1004009905FB /* SceneDelegate.swift in Sources */,
+				0BA06F2C29B09FAB00B9E731 /* LandingViewController.swift in Sources */,
+				0B97B21F29DAC3DF001154DE /* AuthenticationViewController.swift in Sources */,
+				0B82061029AE138C009905FB /* FullGamesViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0B8205E329AE1004009905FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B8205E429AE1004009905FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0B8205E829AE1006009905FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B8205E929AE1006009905FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0B82060229AE1007009905FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0B82060329AE1007009905FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B82060529AE1007009905FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F7B01C9383EB43867097480 /* Pods-GamesApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GamesApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.axis.GamesApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0B82060629AE1007009905FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7F7A0E3B23F81E22EF5F0DB /* Pods-GamesApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GamesApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.axis.GamesApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B8205D529AE1004009905FB /* Build configuration list for PBXProject "GamesApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B82060229AE1007009905FB /* Debug */,
+				0B82060329AE1007009905FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B82060429AE1007009905FB /* Build configuration list for PBXNativeTarget "GamesApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B82060529AE1007009905FB /* Debug */,
+				0B82060629AE1007009905FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B8205D229AE1004009905FB /* Project object */;
+}
